@@ -1,0 +1,32 @@
+{
+  "name": "test-on-fire",
+  "version": "0.0.0",
+  "description": "Test for self use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CocaCola183/test-on-fire.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "blackwhite",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CocaCola183/test-on-fire/issues"
+  },
+  "homepage": "https://github.com/CocaCola183/test-on-fire#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-mocha": "^1.1.2",
+    "lodash": "^3.10.1",
+    "validator-json": "^1.0.4",
+    "vi-mock": "^1.0.0"
+  },
+  "devDependencies": {
+    "should": "^7.1.0"
+  }
+}
