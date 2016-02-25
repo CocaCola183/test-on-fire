@@ -1,0 +1,1 @@
+node getApiInfo.js -i ./api -o ./apidoc -t ./template

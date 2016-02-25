@@ -108,10 +108,10 @@ function run (ati) {
 module.exports = AvailabilityTest;
 
 /*====================================================================test=============================================================================*/
-// let urlPrefix = 'http://localhost:3000';
-// let schema = require('fs').readFileSync('../config.json');
-// let test = new AvailabilityTest(JSON.parse(schema.toString()), {urlPrefix: urlPrefix});
-// test.run();
+let urlPrefix = 'http://localhost:3000';
+let schema = require('fs').readFileSync('../config.json');
+let test = new AvailabilityTest(JSON.parse(schema.toString()), {urlPrefix: urlPrefix});
+test.run();
 
 
 
